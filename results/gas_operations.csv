@@ -1,0 +1,9 @@
+operation,gasUsed,calldata_bytes,note
+deploy,972825,4281,
+registerPQKey,71128,164,first registration (two cold zero->nonzero slots)
+anchorCommitment_first,56927,196,nonce=0
+anchorCommitment_next1,56939,196,nonce=1
+anchorCommitment_next2,56939,196,nonce=2
+anchorCommitment_next3,56939,196,nonce=3
+anchorCommitment_next4,56939,196,nonce=4
+rotatePQKey,37728,,

@@ -1,0 +1,11 @@
+component,gas
+"base transaction (intrinsic 21000)",21000
+"calldata (196 B: 98 zero x4 + 98 non-zero x16)",1960
+"other opcodes (stack/memory/control/calldata)",1489
+"KECCAK256",210
+"SLOAD",6600
+"SSTORE",22900
+"LOG3",2780
+"SUM of components",56939
+"gasUsed (receipt)",56939
+"EIP-7623 floor for this calldata",25900

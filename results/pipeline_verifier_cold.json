@@ -1,0 +1,11 @@
+{
+ "stages_ns": {
+  "ipfs_cat_record": 6643900,
+  "eth_call_registry": 16184500,
+  "key_fetch": 19863400,
+  "recompute_C": 190600,
+  "eth_call_anchor": 18485100,
+  "dual_verify": 497500
+ },
+ "round_trips": 5
+}

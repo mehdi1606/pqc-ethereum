@@ -1,0 +1,4 @@
+N,anchorBatchRoot_gasUsed,sign_all_ns,tree_and_proofs_ns,ipfs_add_all_ns,submit_confirm_ns,manifest_bytes,merkle_verify_mean_ns,dual_verify_mean_ns,verifier_round_trips,max_proof_len
+10,58308,75560900,3326700,360096800,8317900,1760,159490.0,415720.0,3,4
+100,58308,235647300,5791900,2766551900,7320600,16160,280549.0,561480.0,3,7
+1000,58308,2560790400,116505500,38375396400,20493900,160160,380769.0,577721.0,3,10

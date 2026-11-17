@@ -1,0 +1,6 @@
+N,proof_len,proof_bytes,verifyInclusionTx_gasUsed,verifyInclusion_view_estimateGas,calldata_bytes
+1,0,0,24881,24330,132
+10,4,128,29510,29510,260
+100,7,224,33320,33320,356
+1000,10,320,37190,37190,452
+10000,14,448,42310,42310,580

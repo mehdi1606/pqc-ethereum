@@ -1,0 +1,9 @@
+INFO:Detectors:
+2 different versions of Solidity are used:
+	- Version constraint ^0.8.20 is used by:
+		-^0.8.20 (node_modules/@openzeppelin/contracts/utils/cryptography/Hashes.sol#4)
+		-^0.8.20 (node_modules/@openzeppelin/contracts/utils/cryptography/MerkleProof.sol#5)
+	- Version constraint 0.8.30 is used by:
+		-0.8.30 (contracts/PQCAnchor.sol#2)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#different-pragma-directives-are-used
+INFO:Slither:. analyzed (3 contracts with 100 detectors), 1 result(s) found

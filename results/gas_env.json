@@ -1,0 +1,11 @@
+{
+ "hardhat": "2.29.2",
+ "hardfork": "osaka",
+ "solc": "0.8.30",
+ "optimizer_runs": 200,
+ "evmVersion": "prague",
+ "openzeppelin": "5.1.0",
+ "contract": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+ "node": "v22.9.0",
+ "date": "2026-11-17T12:42:30.348Z"
+}

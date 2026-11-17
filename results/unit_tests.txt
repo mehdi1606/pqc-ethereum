@@ -1,0 +1,16 @@
+
+
+  PQCAnchor
+    ✔ deploys at the address used by the Python test vectors
+    ✔ encodes keyId and C byte-for-byte like the Python client (real ML-DSA-65/Falcon-512 data) (112ms)
+    ✔ verifies the Python-built Merkle proofs with OpenZeppelin MerkleProof (107ms)
+    ✔ registers a PQ key once and emits KeyRegistered (98ms)
+    ✔ refuses to anchor before registration
+    ✔ anchors commitments with a strict per-sender nonce and per-sender uniqueness (132ms)
+    ✔ anchors batch roots and advances the nonce by n (111ms)
+    ✔ rotates and revokes keys with an authorisation reference (73ms)
+    ✔ verifyInclusionTx emits the outcome (39ms)
+
+
+  9 passing (2s)
+

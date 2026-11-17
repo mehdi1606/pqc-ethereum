@@ -1,0 +1,8 @@
+step,ns
+Dual keygen,11902900
+Proof of possession (2 PQ signatures),3106200
+IPFS add key bundle,29600200
+ECDSA sign registerPQKey tx,17791100
+Submit + receipt registerPQKey,12393900
+registerPQKey gasUsed,71128
+key bundle bytes,7136

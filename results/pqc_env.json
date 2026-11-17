@@ -1,0 +1,98 @@
+{
+ "cpu": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+ "cpu_name": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+ "logical_cpus": 12,
+ "ram_gb": 31.9,
+ "os": "Windows-10-10.0.26200-SP0",
+ "python": "3.10.10",
+ "liboqs": "0.14.0",
+ "liboqs_python": "0.14.1",
+ "affinity": [
+  2
+ ],
+ "iters": 1000,
+ "warmup": 50,
+ "cpu_freq_start_mhz": 2601.0,
+ "sizes": {
+  "ML-DSA-44": {
+   "pk": 1312,
+   "sk": 2560,
+   "sig_max": 2420,
+   "claimed_nist_level": 2,
+   "alg_version": "FIPS204"
+  },
+  "ML-DSA-65": {
+   "pk": 1952,
+   "sk": 4032,
+   "sig_max": 3309,
+   "claimed_nist_level": 3,
+   "alg_version": "FIPS204"
+  },
+  "ML-DSA-87": {
+   "pk": 2592,
+   "sk": 4896,
+   "sig_max": 4627,
+   "claimed_nist_level": 5,
+   "alg_version": "FIPS204"
+  },
+  "Dilithium3": {
+   "pk": 1952,
+   "sk": 4000,
+   "sig_max": 3293,
+   "claimed_nist_level": 3,
+   "alg_version": "https://github.com/pq-crystals/dilithium/commit/d9c885d3f2e11c05529eeeb7d70d808c972b8409"
+  },
+  "Falcon-512": {
+   "pk": 897,
+   "sk": 1281,
+   "sig_max": 752,
+   "claimed_nist_level": 1,
+   "alg_version": "20211101 with PQClean patches"
+  },
+  "Falcon-1024": {
+   "pk": 1793,
+   "sk": 2305,
+   "sig_max": 1462,
+   "claimed_nist_level": 5,
+   "alg_version": "20211101 with PQClean patches"
+  },
+  "ML-KEM-512": {
+   "pk": 800,
+   "sk": 1632,
+   "ct": 768,
+   "ss": 32,
+   "claimed_nist_level": 1
+  },
+  "ML-KEM-768": {
+   "pk": 1184,
+   "sk": 2400,
+   "ct": 1088,
+   "ss": 32,
+   "claimed_nist_level": 3
+  },
+  "ML-KEM-1024": {
+   "pk": 1568,
+   "sk": 3168,
+   "ct": 1568,
+   "ss": 32,
+   "claimed_nist_level": 5
+  }
+ },
+ "kem_bundle_bytes": {
+  "32": 1312,
+  "256": 1536,
+  "1024": 2304
+ },
+ "falcon512_sig_len": {
+  "mean": 654.914,
+  "min": 648,
+  "max": 663
+ },
+ "record_bytes": {
+  "sig_d": 3309,
+  "sig_f": 654,
+  "pk_d": 1952,
+  "pk_f": 897
+ },
+ "date": "2026-11-17 12:46:21"
+}

@@ -1,0 +1,12 @@
+# Node / Hardhat
+node_modules/
+artifacts/
+cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# local logs and secrets
+*.log
+.env

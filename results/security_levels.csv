@@ -1,0 +1,6 @@
+scheme,nist_category,category_reference,attack,beta,coreSVP_classical_bits,coreSVP_quantum_bits,0.292beta,0.265beta
+ML-KEM-768,3,AES-192 key search,MLWE (primal),626,183,166,182.8,165.9
+ML-DSA-65,3,AES-192 key search,MLWE (key recovery),624,182,165,182.2,165.4
+ML-DSA-65,3,AES-192 key search,MSIS (forgery),638,186,169,186.3,169.1
+Falcon-512,1,AES-128 key search,NTRU key recovery,458,133,121,133.7,121.4
+Falcon-512,1,AES-128 key search,NTRU-SIS forgery,411,120,108,120.0,108.9

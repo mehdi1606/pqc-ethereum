@@ -1,0 +1,4 @@
+tx 0xbaf0e16cab0b83e1d85fae6cacf1ff0a1209fe852754e769a7b2e870723a0fae
+SSTORE costs: 20000, 2900
+SLOAD costs: 2100, 2100, 100, 2100, 100, 100
+refund: 

@@ -1,0 +1,117 @@
+{
+ "lambda": {
+  "ML-DSA-65_q": 165,
+  "Falcon-512_q": 108,
+  "min": 108,
+  "max": 165
+ },
+ "QARL_pct": 100.0,
+ "QSM_min_pct": 84.375,
+ "QSM_max_pct": 128.90625,
+ "QSM_lambda_ref": 128,
+ "COE": {
+  "inputs": {
+   "k_s": 2849,
+   "S_s": 3963.9139999999998,
+   "T_s_ms": 2.99817,
+   "k_ref": 1952,
+   "S_ref": 3309,
+   "T_ref_ms": 1.2526899999999999,
+   "lambda_ref": 165,
+   "ratio_k": 1.4595286885245902,
+   "ratio_S": 1.197919008763977,
+   "ratio_T": 2.3933854345448595,
+   "denominator": 1.6836110439444756
+  },
+  "COE_lambda_min": 0.3887747451525039,
+  "COE_lambda_max": 0.5939614162052143
+ },
+ "gas": {
+  "single": 56939,
+  "batch": {
+   "1": 58296,
+   "10": 58296,
+   "100": 58308,
+   "1000": 58320,
+   "10000": 58308
+  },
+  "register": 71128,
+  "deploy": 972825
+ },
+ "savings_pct": {
+  "10": 89.76167477475894,
+  "100": 98.97595672561864,
+  "1000": 99.89757459737613,
+  "10000": 99.98975956725619
+ },
+ "threshold_20gwei_3000usd": 350,
+ "legacy_threshold_55000gas": 330,
+ "signer_ms_mean_median": {
+  "record_build_ns": [
+   3.2923603,
+   2.85325
+  ],
+  "ecdsa_tx_sign_ns": [
+   20.3927206,
+   17.0201
+  ],
+  "ipfs_add_ns": [
+   31.6537602,
+   28.3778
+  ],
+  "submit_confirm_ns": [
+   13.4718252,
+   11.137
+  ]
+ },
+ "verifier_ms_mean_median": {
+  "ipfs_cat_record_ns": [
+   5.4763107,
+   4.7002
+  ],
+  "eth_call_registry_ns": [
+   17.7192653,
+   15.34085
+  ],
+  "key_fetch_cached_ns": [
+   0.0017884,
+   0.0016
+  ],
+  "recompute_C_ns": [
+   0.3091278,
+   0.2423
+  ],
+  "eth_call_anchor_ns": [
+   17.4659662,
+   15.0259
+  ],
+  "dual_verify_ns": [
+   0.600869,
+   0.5006
+  ]
+ },
+ "signer_total_mean_ms": 68.8106663,
+ "verifier_total_mean_ms": 41.5733274,
+ "crypto_only": {
+  "dual_keygen": 11.50971,
+  "dual_sign": 2.60604,
+  "dual_verify": 0.39213,
+  "record_build": 2.80465,
+  "record_verify": 0.70832
+ },
+ "bytes": {
+  "sig_D": 3309,
+  "sig_F_mean": 654.914,
+  "pk_D": 1952,
+  "pk_F": 897,
+  "sigs": 3963.9139999999998,
+  "pks": 2849,
+  "ipfs_record_256B_msg": 4512,
+  "kem_bundle": {
+   "32": 1312,
+   "256": 1536,
+   "1024": 2304
+  },
+  "ml_kem_ct": 1088
+ }
+}

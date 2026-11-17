@@ -1,0 +1,8 @@
+payload,bytes,zero_bytes,nonzero_bytes,standard_cost,eip7623_floor,measured_gasUsed,measured_equals_max
+"ML-DSA-65 sig",3309,19,3290,73716,152790,152790,yes
+"ML-DSA-65 sig+pk",5261,25,5236,104876,230690,230690,yes
+"Falcon-512 sig",656,0,656,31496,47240,47240,yes
+"Falcon-512 sig+pk",1553,3,1550,45812,83030,83030,yes
+"Both sigs",3965,19,3946,84212,179030,179030,yes
+"Both sigs+pks",6814,28,6786,129688,292720,292720,yes
+"Commitment only (32 B)",32,0,32,21512,22280,22280,yes
